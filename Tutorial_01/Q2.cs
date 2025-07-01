@@ -30,7 +30,7 @@ namespace Tutorial_01
             Console.Write("Enter Mail :- ");
             mail = Console.ReadLine();
 
-            Console.WriteLine("------ Your Details ------\n" +
+            Console.WriteLine("\n------ Your Details ------\n" +
                 "Name :- "+name+"\nDOB :- "+ dob+ "\nAddress :- "+addr+"\nCiry :- "+city+"\nPincode :- "+pincode+"\nState :- "+state+
                 "\nCountry :- "+country+"\nMail :- "+mail);
 

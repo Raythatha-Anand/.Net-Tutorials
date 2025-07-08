@@ -10,7 +10,7 @@ namespace Tutorial_01
     {
         public static void Main(stirng[] args)
         {
-            string[] abc = string[];
+            int[] abc = int[];
             Console.Write("Enter How many elements you want to Enter :- ");
             int lim = Convert.ToInt32(Console.ReadLine());
             for(int i=0;i<lim;i++){

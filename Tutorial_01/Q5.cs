@@ -10,16 +10,32 @@ namespace Tutorial_01
     {
         public static void Main(string[] args)
         {
-            int[] abc = new int[5];
-            Console.Write("Enter How many elements you want to Enter :- ");
-            int lim = Convert.ToInt32(Console.ReadLine());
-            for(int i=0;i<lim;i++){
-                Console.Write("Enter Element No" + i + " :-");
-                abc[i] = Convert.ToInt32(Console.ReadLine());
+            //This line i initializes the n and fact values to 1.
+            int n, fact = 1;
+
+            //This line prompts the user to enter a number.
+            Console.WriteLine("Enter Number : ");
+
+            string str = Console.ReadLine();
+
+            //This line converts the string input to an integer.
+            n = Convert.ToInt32(str);
+
+
+            // This loop calculates the factorial of the number n.
+            for (int i = 1; i <= n; i++)
+
+            {
+                //This line multiplies the current value of fact by i.
+                fact = fact * i;
+
             }
-            foreach(int a in abc){
-                Console.Write(a+" ");
-            }
+
+            Console.WriteLine("Factorial : {0}", fact);
+
+
+
+            
         }
             
     }

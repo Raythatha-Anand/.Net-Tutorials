@@ -1,9 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace Tutorial_01
 {
     internal class Q11
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.Write("Enter Name: ");
             string name = Console.ReadLine();
@@ -11,11 +16,11 @@ namespace Tutorial_01
             Console.Write("Enter Gender (M/F): ");
             char gender = Convert.ToChar(Console.ReadLine());
 
-            if (gender == 'M' | gender == 'm')
+            if (gender == 'M' || gender == 'm')
             {
                 Console.WriteLine("Mr. " + name);
             }
-            else if (gender == 'F' | gender == 'f')
+            else if (gender == 'F' || gender == 'f')
             {
                 Console.WriteLine("Ms. " + name);
             }
@@ -23,8 +28,7 @@ namespace Tutorial_01
             {
                 Console.WriteLine("Invalid Gender");
             }
-            
-        }
 
+        }
     }
 }

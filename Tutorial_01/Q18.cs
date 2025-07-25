@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿using System;
 
 namespace Tutorial_01
@@ -20,7 +20,7 @@ namespace Tutorial_01
         }
     }
 }
-=======
+
 ﻿using System;
 
 namespace Tutorial_01
